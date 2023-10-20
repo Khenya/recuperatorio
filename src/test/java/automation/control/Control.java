@@ -16,6 +16,7 @@ public class Control {
     }
 
     public void getControl() {
+        //control = Session1.getInstance().getBrowser().findElement(this.locator);
         control = Session2.getInstance().getBrowser().findElement(this.locator);
     }
 
